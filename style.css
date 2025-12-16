@@ -29,35 +29,59 @@ body{
 #app{
   display: grid;
   background-color: var(--grey-900);
-  grid-template-columns: 320px 1fr;
+  grid-template-columns: 325px 1fr;
   height: 90vh;
   overflow: hidden;
 
 }
 
+/* aside style */
+
 aside{
   background-color: var(--grey-800);
 }
 
+
 .profile{
-  padding: 10px;
   display: flex;
   align-items: center;
+  padding: 10px;
+  gap: 7px;
+}
+
+.profile h2{
+  font-size: 17px;
 }
 
 .profile-photo{
-  border-radius: 50%;
-  height: 50px;
   width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.actions{
+  margin-left: 20px;
 }
 
 .actions button{
   background: transparent;
-
-} 
-
-.actions button img{
-  height: 20px;
-  width: 20px;
-
+  border: none;
+  background-color: var(--grey-800);
+  padding: 5px;
+  border-radius: 50%;
+  transition: transform .2s;
 }
+
+.actions img{
+  width: 25px;
+  height: 25px;
+}
+
+.actions button:hover{
+  background-color: var(--grey-700);
+  cursor: pointer;
+  transform: translateY(-4px);
+}
+
+/* search */
+
