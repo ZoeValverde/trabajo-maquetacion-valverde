@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: var(--primary-font);
   color: #fefff6;
+   overflow: hidden;
 }
 
 :root{
@@ -237,7 +238,7 @@ footer form{
   display: flex;
   justify-content: center;
   background-color: var(--green-400);
-  padding: 15px;
+  padding: 10px;
   border-radius: 15px;
   transition: all .05s;
 }
@@ -250,7 +251,7 @@ footer form{
 /* attach button */
 
 .attach{
-  padding: 15px;
+  padding: 10px;
   border-radius: 10px;
   transition: background-color .1s;
 }
@@ -275,11 +276,23 @@ footer form textarea{
 
 /* responsive */
 
-@media (max-width: 1000px){
+
+
+@media (max-width: 1050px){
+
+  .message{
+    width: 45%;
+  }
+
+}
+
+ 
+ 
+@media (max-width: 900px){
+
   #app{
     grid-template-columns: 1fr;
   }
-
 
   aside{
     display: none;
@@ -287,3 +300,15 @@ footer form textarea{
 
 }
 
+
+@media (max-width: 500px){
+
+*{
+  box-sizing:content-box
+}
+
+.message{
+  width: 45%;
+}
+
+}

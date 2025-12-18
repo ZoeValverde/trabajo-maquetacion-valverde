@@ -1,17 +1,18 @@
 # Maquetación UI Clon de WhatsApp-Entrega
-*Este proyecto se trata de una maquetación en la que tiene como referencia la interfaz de WhatsApp  con lo siguiente:*
+*Este proyecto se trata de una maquetación hecho con HTML y CSS en la que tiene como referencia la interfaz de WhatsApp, este  tiene los siguientes componentes:*
 
-- Apartado de perfil 
 - Panel de chats 
 - sección de conversación 
 
-*Todo con sus respectivos botones (por ejemplo: enviar o adjuntar) y todo hecho con HTML y CSS.*
+*Todo con sus respectivos encabezados de perfil y sus botones (por ejemplo: enviar o adjuntar).*
 
-## ¿Cómo visualizar el repositorio?
+## ¿Cómo visualizar el repositorio de manera local?
 
-*Tendrias que ejecutar el **Index.html** del repositorio en cualquier navegador.*
+1. Primero tendrias que copiar el link del repositorio en el botón "clone" o desde el link de la página.
+2. ir al Git Bash y poner los comandos "Git clone + link del repositorio.
+3. Al crearse la copia solo tendras que abrir el archivo **index.html** en algún navegador.
 
-## Estructura 
+## Estructura Repositorio
 
 *La estructura se basa en la siguiente lista:*
 
@@ -32,7 +33,7 @@
 
 #### Estructura estilos en el style.css
 
-*Su orden se basa de lo general al detalle y arriba a abajo, siguiendo el siguiente:*
+*Su orden se basa de lo general al detalle y arriba a abajo:*
 
 1. Body 
 2. Aside 
@@ -41,14 +42,14 @@
 5. Los mensajes 
 6. El Footer (Para enviar mensajes)
 
-*Todo separado por su sección (Por ejemplo: / aside style /, / chat panel / o /  footer /).*
+*Todo separado por secciones (Por ejemplo: / aside style /, / chat panel / o /  footer /).*
 Para dejar al final el responsive correspondiente.*
 
 
 ## Commits
-*Los commits se hicieron el siguiente orden:*
+*Los commits se hicieron  con el siguiente orden:*
     
-1. Base de los archivos index.html, style.css y la carpeta assets
+1. Base (archivos index.html, style.css y la carpeta assets)
 2. Aside 
 3. Sección de los contactos
 4. Panel del chat 
